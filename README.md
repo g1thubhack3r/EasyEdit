@@ -1,2 +1,2 @@
 # EasyEdit
-a light, simple, cross-platform editor
+A light, simple, cross-platform editor again!

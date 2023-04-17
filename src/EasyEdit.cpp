@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include <string>
 #include <fstream>
 #include <cstdio>
@@ -36,6 +37,14 @@ string edit(string filename)
 			system("cls");
 			buffer.erase(buffer.end() - 1);
 			cout << buffer;
+		}
+		else if (input == 13)
+		{
+			stringstream tmpendl;
+			tmpendl << endl;
+			string newendl = tmpendl.str();
+			cout << endl;
+			buffer += newendl;
 		}
 		else
 		{

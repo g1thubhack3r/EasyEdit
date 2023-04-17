@@ -1,2 +1,2 @@
 # EasyEdit
-A light, simple, cross-platform editor again!
+This is an another light, simple, cross-platform editor, also see [this](https://github.com/g1thubhack3r/SimpleEdit).
